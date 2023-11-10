@@ -1,0 +1,15 @@
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\bin\Debug\net6.0\ProjetoString.exe
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\bin\Debug\net6.0\ProjetoString.deps.json
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\bin\Debug\net6.0\ProjetoString.runtimeconfig.json
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\bin\Debug\net6.0\ProjetoString.dll
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\bin\Debug\net6.0\ProjetoString.pdb
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ProjetoString.csproj.AssemblyReference.cache
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ProjetoString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ProjetoString.AssemblyInfoInputs.cache
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ProjetoString.AssemblyInfo.cs
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ProjetoString.csproj.CoreCompileInputs.cache
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ProjetoString.dll
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\refint\ProjetoString.dll
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ProjetoString.pdb
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ProjetoString.genruntimeconfig.cache
+C:\Dev\CursoBalta\ProjetoString\ProjetoString\obj\Debug\net6.0\ref\ProjetoString.dll

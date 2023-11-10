@@ -1,0 +1,15 @@
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\bin\Debug\net6.0\EditorTextos.exe
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\bin\Debug\net6.0\EditorTextos.deps.json
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\bin\Debug\net6.0\EditorTextos.runtimeconfig.json
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\bin\Debug\net6.0\EditorTextos.dll
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\bin\Debug\net6.0\EditorTextos.pdb
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\EditorTextos.csproj.AssemblyReference.cache
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\EditorTextos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\EditorTextos.AssemblyInfoInputs.cache
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\EditorTextos.AssemblyInfo.cs
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\EditorTextos.csproj.CoreCompileInputs.cache
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\EditorTextos.dll
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\refint\EditorTextos.dll
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\EditorTextos.pdb
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\EditorTextos.genruntimeconfig.cache
+C:\Dev\CursoBalta\EditorTextos\EditorTextos\obj\Debug\net6.0\ref\EditorTextos.dll

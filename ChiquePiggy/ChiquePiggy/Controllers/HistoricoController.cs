@@ -21,7 +21,7 @@ namespace ChiquePiggy.Controllers.HistoricoController
             _context = context;
         }
         [HttpGet]
-        public async Task<ActionResult<HistoricoTransacao>> Clientes()
+        public async Task<ActionResult<HistoricoTransacao>> Historico()
         {
             try
             {
@@ -36,36 +36,15 @@ namespace ChiquePiggy.Controllers.HistoricoController
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<HistoricoTransacao>> GetCliente(int id)
+        public async Task<ActionResult<HistoricoTransacao>> GetCliente(string cpf)
         {
             try
             {
-                var historico = await _context.Historico.Where(a => a.IdCliente == id)
-                 .Join(_context.Transacao,
-                 a => a.IdCliente,
-                 b => b.IdCliente,
-                 (a, b) => new { a, b })
-                 .Join(_context.Cliente,
-                 b => b.b.IdCliente,
-                 c => c.Id,
-                 (b, c) => new { b, c })
-                 .GroupBy(p => new { p.b.a.IdCliente, p.b.b.DataTransacao, p.c.Nome, p.c.Cpf, p.b.b.TotalPontos, p.b.b.PontosDebitado })
-                 .Select(x => new
-                 {
-                   data =  x.Key.DataTransacao,
-                   codCliente= x.Key.IdCliente,
-                   nome = x.Key.Nome,
-                   cpf = x.Key.Cpf,
-                   pontos = x.Key.TotalPontos,
-                   pontosDebitado = x.Key.PontosDebitado
-
-                     
-                 }).ToListAsync();
-
+                var historico = await _context.Historico.Where(a => a.Cliente.Cpf == cpf).ToListAsync();
 
                 return Json(historico);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return Json(ex.Message);
             }

@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ChiquePiggy.Models.ClienteModels;
+using ChiquePiggy.Models.TransacaoModels;
+using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ChiquePiggy.Models.HistoricoModels
 
@@ -6,9 +9,8 @@ namespace ChiquePiggy.Models.HistoricoModels
 
     public class HistoricoTransacao
     {
-        [Key]
-        public int Id { get; set; }
-        public int IdCliente { get; set; }
-        public int IdTransacao { get; set; }
+        public Guid Id { get; set; }
+        public Cliente Cliente { get; set; }
+        public Transacao Transacao { get; set; }
     }
 }

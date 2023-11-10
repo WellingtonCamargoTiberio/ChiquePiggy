@@ -19,12 +19,11 @@ namespace ChiquePiggy.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ChiquePiggy.Models.ClienteModel.Cliente", b =>
+            modelBuilder.Entity("ChiquePiggy.Models.ClienteModels.Cliente", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Cpf")
                         .HasColumnType("nvarchar(max)");
@@ -37,36 +36,38 @@ namespace ChiquePiggy.Migrations
                     b.ToTable("Cliente");
                 });
 
-            modelBuilder.Entity("ChiquePiggy.Models.HistoricoTransacao", b =>
+            modelBuilder.Entity("ChiquePiggy.Models.HistoricoModels.HistoricoTransacao", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("IdCliente")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("ClienteId")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("IdTransacao")
-                        .HasColumnType("int");
+                    b.Property<Guid?>("TransacaoId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
+
+                    b.HasIndex("TransacaoId");
 
                     b.ToTable("Historico");
                 });
 
             modelBuilder.Entity("ChiquePiggy.Models.TransacaoModels.Transacao", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("ClienteId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("DataTransacao")
                         .HasColumnType("datetime2");
-
-                    b.Property<int>("IdCliente")
-                        .HasColumnType("int");
 
                     b.Property<int>("PontosDebitado")
                         .HasColumnType("int");
@@ -86,7 +87,33 @@ namespace ChiquePiggy.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ClienteId");
+
                     b.ToTable("Transacao");
+                });
+
+            modelBuilder.Entity("ChiquePiggy.Models.HistoricoModels.HistoricoTransacao", b =>
+                {
+                    b.HasOne("ChiquePiggy.Models.ClienteModels.Cliente", "Cliente")
+                        .WithMany()
+                        .HasForeignKey("ClienteId");
+
+                    b.HasOne("ChiquePiggy.Models.TransacaoModels.Transacao", "Transacao")
+                        .WithMany()
+                        .HasForeignKey("TransacaoId");
+
+                    b.Navigation("Cliente");
+
+                    b.Navigation("Transacao");
+                });
+
+            modelBuilder.Entity("ChiquePiggy.Models.TransacaoModels.Transacao", b =>
+                {
+                    b.HasOne("ChiquePiggy.Models.ClienteModels.Cliente", "Cliente")
+                        .WithMany()
+                        .HasForeignKey("ClienteId");
+
+                    b.Navigation("Cliente");
                 });
 #pragma warning restore 612, 618
         }

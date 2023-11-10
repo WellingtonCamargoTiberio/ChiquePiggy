@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5tsxfXprfP+LIeKZHpetGGaJTu5Vwf21EbpP8V2XM7OtQxUR7fLkHxAdpRoeH9AK3WFPzp/O8JWgY7ozRVYI4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\CursoBalta\\Calculadora\\Calculadora\\Calculadora.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pams2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\pams2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\pams2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\pams2\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.22\\microsoft.netcore.app.host.win-x64.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

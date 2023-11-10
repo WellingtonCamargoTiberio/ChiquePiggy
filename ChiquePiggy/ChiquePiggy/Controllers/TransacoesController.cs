@@ -48,55 +48,70 @@ namespace ChiquePiggy.Controllers.TrnsacoesController
 
                 return transacao;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return Json(ex.Message);
             }
         }
 
-        [HttpPost]
-        public async Task<ActionResult<Transacao>> PostTodoItem(Transacao transacao)
+        [HttpPost("PontuarCliente")]
+        public async Task<ActionResult<Transacao>> PontuarCliente(string cpf, decimal valorReal)
         {
             try
-                 
-            {
-                _context.Transacao.Add(transacao);
-                await _context.SaveChangesAsync();
-                if (ClienteExiste(transacao.IdCliente))
-                {
-                    var clientes = await _context.Cliente.Where(a => a.Id == transacao.IdCliente)
-                    .Join(_context.Transacao,
-                    a => a.Id,
-                    b => b.IdCliente,
-                    (a, b) => new { a, b })
-                    .GroupBy(p => new { p.b.IdCliente })
-                    .Select(x => new
-                    {
-                        pontos = x.Sum(a => a.b.TotalPontos),
-                    }).ToListAsync();
-                    
-                    transacao.TrocaValorPorPontos(transacao.ValorCompra);
-                    transacao.DobrarPontos(transacao.DataTransacao);
-                    transacao.RegastarPremio(transacao.ResgatePremio);
-  
-                }
 
-                HistoricoTransacao h = new HistoricoTransacao();
-                h.IdCliente = transacao.IdCliente;
-                h.IdTransacao = transacao.Id;
-                _context.Historico.Add(h);
-                await _context.SaveChangesAsync();
+            {
+                var cliente = await _context.Cliente.Where(c => c.Cpf == cpf).FirstOrDefaultAsync();
+                var transacao = new Transacao();
+
+                if (ClienteExiste(cliente.Cpf))
+                {
+                    transacao.Cliente = cliente;
+                    transacao.TrocaValorPorPontos(valorReal);
+                    transacao.DobrarPontos(transacao.DataTransacao, valorReal);
+                    _context.Transacao.Add(transacao);
+                    await _context.SaveChangesAsync();
+                }
+                else
+                    return Json("Cliente não encontrado");
+
+                transacao.AvisarCliente(transacao.TotalPontos);
 
                 return CreatedAtAction(nameof(GetTransacao), new { id = transacao.Id }, transacao);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return Json(ex.Message);
             }
         }
-        private bool ClienteExiste(int id)
+        [HttpPost("ResgatePremio")]
+        public async Task<ActionResult<Transacao>> ResgatePremio(string cpf, bool resgate, int pontosResgate)
         {
-            return _context.Transacao.Any(e => e.IdCliente == id);
+            try
+
+            {
+                var transacao = await _context.Transacao.Where(a => a.Cliente.Cpf == cpf).FirstOrDefaultAsync();
+
+                if (resgate == true)
+                {
+                    if (transacao.TotalPontos > pontosResgate)
+                        transacao.RegastarPremio(pontosResgate);
+                    else
+                        return Json("Você não tem saldo para fazer o resgate");
+
+                    _context.Transacao.Update(transacao);
+                    await _context.SaveChangesAsync();
+                }
+
+                return CreatedAtAction(nameof(GetTransacao), new { id = transacao.Id }, transacao);
+            }
+            catch (Exception ex)
+            {
+                return Json(ex.Message);
+            }
+        }
+        private bool ClienteExiste(string cpf)
+        {
+            return _context.Cliente.Any(e => e.Cpf == cpf);
         }
     }
 }

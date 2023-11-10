@@ -34,11 +34,11 @@ namespace ChiquePiggy.Controllers.ClientesController
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Cliente>> GetCliente(int id)
+        public async Task<ActionResult<Cliente>> GetCliente(string cpf)
         {
             try
             {
-                var clientes = await _context.Cliente.Where(a => a.Id == id).ToListAsync();
+                var clientes = await _context.Cliente.Where(c => c.Cpf == cpf).ToListAsync();
 
                 if (clientes == null)
                 {
@@ -54,12 +54,11 @@ namespace ChiquePiggy.Controllers.ClientesController
         }
 
         [HttpPost]
-        public async Task<ActionResult<Cliente>> PostTodoItem(Cliente cliente)
+        public async Task<ActionResult<Cliente>> CriacaoCliente(Cliente cliente)
         {
-          
             try
             {
-                if (ClienteExists(cliente.Cpf))
+                if (ClienteExiste(cliente.Cpf))
                     return BadRequest("Usuário já existe");
                 else
                     _context.Cliente.Add(cliente);
@@ -74,9 +73,9 @@ namespace ChiquePiggy.Controllers.ClientesController
             }
         }
 
-        private bool ClienteExists(string id)
+        private bool ClienteExiste(string cpf)
         {
-            return _context.Cliente.Any(e => e.Cpf == id);
+            return _context.Cliente.Any(e => e.Cpf == cpf);
         }
     }
 }

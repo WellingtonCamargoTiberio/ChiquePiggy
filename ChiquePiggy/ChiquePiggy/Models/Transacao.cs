@@ -1,61 +1,52 @@
-﻿using System;
+﻿using ChiquePiggy.Models.ClienteModels;
+using System;
 
 namespace ChiquePiggy.Models.TransacaoModels
 {
     public class Transacao
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public int TotalPontos { get; set; }
         public int PontosDebitado { get; set; }
         public int PontosGanho { get; set; }
         public decimal ValorCompra { get; set; }
         public DateTime DataTransacao { get; set; } = DateTime.Now;
-        public int IdCliente { get; set; }
+        public Cliente Cliente { get; set; }
         public char ResgatePremio { get; set; }
 
-        public void RegastarPremio(char c)
+        public void RegastarPremio(int pontos)
         {
-            if (c == 'S')
-            {
-                PontosDebitado = 100;
-                TotalPontos = TotalPontos - PontosDebitado;
-            }
-            else
-            {
-                PontosGanho = (int)Math.Ceiling(ValorCompra);
-                TotalPontos = TotalPontos + PontosGanho;
-            }
-                
+                TotalPontos -= pontos;
         }
-        public void TrocaValorPorPontos(decimal d)
+        public void TrocaValorPorPontos(decimal real)
         {
-            if(d > 0)
-               TotalPontos = (int)Math.Ceiling(ValorCompra);
+            if (real > 0)
+                TotalPontos = (int)Math.Ceiling(real);
         }
-        public string AvisarCliente(int i)
+        public string AvisarCliente(int pontos)
         {
-            if (i >= 100)
+            if (pontos >= 100)
                 return "Cliente Possui pontos suficientes para resgate do prêmio";
 
-            return i.ToString();
+            return pontos.ToString();
         }
-        public void DobrarPontos(DateTime date)
+        public void DobrarPontos(DateTime dataTransacao, decimal real)
         {
 
-            switch ((int)date.DayOfWeek)
+            switch ((int)dataTransacao.DayOfWeek)
             {
                 case 1:
-                   TotalPontos = (int)Math.Ceiling(ValorCompra) * 2;
+                    TotalPontos = (int)Math.Ceiling(real) * 2;
                     break;
                 case 2:
-                    TotalPontos = (int)Math.Ceiling(ValorCompra) * 2;
+                    TotalPontos = (int)Math.Ceiling(real) * 2;
                     break;
                 default:
-                    TotalPontos = (int)Math.Ceiling(ValorCompra);
+                    TotalPontos = (int)Math.Ceiling(real);
                     break;
             }
-            
-            
+
+
         }
     }
 }
