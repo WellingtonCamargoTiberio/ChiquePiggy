@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "uV7E4d8twuWli1zwP2YvnAIraddOywaBUeAn2NHwtmeyjfcBNX3icP/RDDjjf8PMTJ6Dlx8D0/uaVsg9P8/bww==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\MinimalAPI\\IPTV\\IPTVBackend\\IPTVBackend\\IPTVBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pams2\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\pams2\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\pams2\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\pams2\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\pams2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\pams2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

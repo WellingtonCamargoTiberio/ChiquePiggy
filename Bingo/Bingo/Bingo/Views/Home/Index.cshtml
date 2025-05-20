@@ -1,0 +1,108 @@
+﻿@model Bingo.Models.BingoModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@Model.Titulo</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-size: 24px;
+        }
+
+        .selected {
+            background-color: yellow !important;
+            color: black !important;
+        }
+
+        #resetButton {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("jQuery is ready!");
+            $('.bingo-number').click(function () {
+                console.log("Cell clicked!");
+                $(this).toggleClass('selected');
+            });
+
+            // Evento de clique para o botão "Reiniciar"
+            $('#resetButton').click(function () {
+                console.log("Reset button clicked!");
+                $('.bingo-number').removeClass('selected');
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center;">@Model.Titulo</h1>
+
+    <!-- Botão de Reiniciar -->
+    
+
+    <table class="table">
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <th style="font-size: 30px;">B</th>
+                @for (int i = 1; i < 16; i++)
+                {
+                    <td class="bingo-number" style="font-size: 30px;">@i</td>
+                }
+            </tr>
+            <tr>
+                <th style="font-size: 30px;">I</th>
+                @for (int i = 16; i < 31; i++)
+                {
+                    <td class="bingo-number" style="font-size: 30px;">@i</td>
+                }
+            </tr>
+            <tr>
+                <th style="font-size: 30px;">N</th>
+                @for (int i = 31; i < 46; i++)
+                {
+                    <td class="bingo-number" style="font-size: 30px;">@i</td>
+                }
+            </tr>
+            <tr>
+                <th style="font-size: 30px;">G</th>
+                @for (int i = 46; i < 61; i++)
+                {
+                    <td class="bingo-number" style="font-size: 30px;">@i</td>
+                }
+            </tr>
+            <tr>
+                <th style="font-size: 30px;">O</th>
+                @for (int i = 61; i < 76; i++)
+                {
+                    <td class="bingo-number" style="font-size: 30px;">@i</td>
+                }
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="resetButton">Reiniciar</button>
+</body>
+</html>

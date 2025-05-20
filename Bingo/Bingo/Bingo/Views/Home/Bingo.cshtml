@@ -1,0 +1,47 @@
+﻿@model Bingo.Models.BingoModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@Model.Titulo</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">@Model.Titulo</h1>
+    <table>
+        <thead>
+            <tr>
+                @foreach (var column in Model.Colunas)
+                {
+                    <th>@column.Letra</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Colunas[0].Numeros.Count; i++)
+            {
+                <tr>
+                    @foreach (var column in Model.Colunas)
+                    {
+                        <td>@column.Numeros[i]</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

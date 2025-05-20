@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\CursoBalta\\EditoHtml\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B282A184-A906-4C51-BD6C-B376D5D877C2}|EditoHtml\\EditoHtml.csproj|c:\\dev\\cursobalta\\editohtml\\editohtml\\menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B282A184-A906-4C51-BD6C-B376D5D877C2}|EditoHtml\\EditoHtml.csproj|solutionrelative:editohtml\\menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B282A184-A906-4C51-BD6C-B376D5D877C2}|EditoHtml\\EditoHtml.csproj|c:\\dev\\cursobalta\\editohtml\\editohtml\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B282A184-A906-4C51-BD6C-B376D5D877C2}|EditoHtml\\EditoHtml.csproj|solutionrelative:editohtml\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B282A184-A906-4C51-BD6C-B376D5D877C2}|EditoHtml\\EditoHtml.csproj|c:\\dev\\cursobalta\\editohtml\\editohtml\\editor\\visualizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B282A184-A906-4C51-BD6C-B376D5D877C2}|EditoHtml\\EditoHtml.csproj|solutionrelative:editohtml\\editor\\visualizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B282A184-A906-4C51-BD6C-B376D5D877C2}|EditoHtml\\EditoHtml.csproj|c:\\dev\\cursobalta\\editohtml\\editohtml\\editor\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B282A184-A906-4C51-BD6C-B376D5D877C2}|EditoHtml\\EditoHtml.csproj|solutionrelative:editohtml\\editor\\editor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Visualizador.cs",
+              "DocumentMoniker": "C:\\Dev\\CursoBalta\\EditoHtml\\EditoHtml\\Editor\\Visualizador.cs",
+              "RelativeDocumentMoniker": "EditoHtml\\Editor\\Visualizador.cs",
+              "ToolTip": "C:\\Dev\\CursoBalta\\EditoHtml\\EditoHtml\\Editor\\Visualizador.cs",
+              "RelativeToolTip": "EditoHtml\\Editor\\Visualizador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T16:05:14.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editor.cs",
+              "DocumentMoniker": "C:\\Dev\\CursoBalta\\EditoHtml\\EditoHtml\\Editor\\Editor.cs",
+              "RelativeDocumentMoniker": "EditoHtml\\Editor\\Editor.cs",
+              "ToolTip": "C:\\Dev\\CursoBalta\\EditoHtml\\EditoHtml\\Editor\\Editor.cs",
+              "RelativeToolTip": "EditoHtml\\Editor\\Editor.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-08T15:44:37.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Dev\\CursoBalta\\EditoHtml\\EditoHtml\\Menu\\Menu.cs",
+              "RelativeDocumentMoniker": "EditoHtml\\Menu\\Menu.cs",
+              "ToolTip": "C:\\Dev\\CursoBalta\\EditoHtml\\EditoHtml\\Menu\\Menu.cs",
+              "RelativeToolTip": "EditoHtml\\Menu\\Menu.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-08T14:35:17.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\CursoBalta\\EditoHtml\\EditoHtml\\Program.cs",
+              "RelativeDocumentMoniker": "EditoHtml\\Program.cs",
+              "ToolTip": "C:\\Dev\\CursoBalta\\EditoHtml\\EditoHtml\\Program.cs",
+              "RelativeToolTip": "EditoHtml\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-08T14:32:24.854Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

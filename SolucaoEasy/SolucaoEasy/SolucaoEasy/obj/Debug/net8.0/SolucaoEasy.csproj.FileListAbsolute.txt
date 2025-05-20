@@ -1,0 +1,15 @@
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\SolucaoEasy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\SolucaoEasy.AssemblyInfoInputs.cache
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\SolucaoEasy.AssemblyInfo.cs
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\SolucaoEasy.csproj.CoreCompileInputs.cache
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\SolucaoEasy.sourcelink.json
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\bin\Debug\net8.0\SolucaoEasy.exe
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\bin\Debug\net8.0\SolucaoEasy.deps.json
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\bin\Debug\net8.0\SolucaoEasy.runtimeconfig.json
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\bin\Debug\net8.0\SolucaoEasy.dll
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\bin\Debug\net8.0\SolucaoEasy.pdb
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\SolucaoEasy.dll
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\refint\SolucaoEasy.dll
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\SolucaoEasy.pdb
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\SolucaoEasy.genruntimeconfig.cache
+C:\Dev\SolucaoEasy\SolucaoEasy\SolucaoEasy\obj\Debug\net8.0\ref\SolucaoEasy.dll

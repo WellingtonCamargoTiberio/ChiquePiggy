@@ -3,7 +3,6 @@ C:\Dev\CursoBalta\EditoHtml\EditoHtml\bin\Debug\net6.0\EditoHtml.deps.json
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\bin\Debug\net6.0\EditoHtml.runtimeconfig.json
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\bin\Debug\net6.0\EditoHtml.dll
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\bin\Debug\net6.0\EditoHtml.pdb
-C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\EditoHtml.csproj.AssemblyReference.cache
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\EditoHtml.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\EditoHtml.AssemblyInfoInputs.cache
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\EditoHtml.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\refint\EditoHtml.dll
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\EditoHtml.pdb
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\EditoHtml.genruntimeconfig.cache
 C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\ref\EditoHtml.dll
+C:\Dev\CursoBalta\EditoHtml\EditoHtml\obj\Debug\net6.0\EditoHtml.sourcelink.json

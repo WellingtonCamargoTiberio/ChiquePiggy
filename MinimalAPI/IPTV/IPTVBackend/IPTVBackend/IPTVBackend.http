@@ -1,0 +1,6 @@
+@IPTVBackend_HostAddress = http://localhost:5167
+
+GET {{IPTVBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

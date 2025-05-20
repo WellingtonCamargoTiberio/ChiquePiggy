@@ -10,14 +10,19 @@ namespace EditoHtml
     {
         public static void Show()
         {
-            Console.Clear();
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.White;
+            string a = "hello";
+            string b = "he" + "llo";
+            Console.WriteLine(a == b);
+            Console.WriteLine(a.Equals(b));
 
-            Tela();
-            Opcoes();
-            short opcao = short.Parse(Console.ReadLine());
-            ManipulandoMenu(opcao);
+            //Console.Clear();
+            //Console.BackgroundColor = ConsoleColor.Black;
+            //Console.ForegroundColor = ConsoleColor.White;
+
+            //Tela();
+            //Opcoes();
+            //short opcao = short.Parse(Console.ReadLine());
+            //ManipulandoMenu(opcao);
         }
 
         public static void Tela()

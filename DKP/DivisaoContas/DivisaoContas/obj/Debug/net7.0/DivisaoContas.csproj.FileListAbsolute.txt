@@ -1,0 +1,15 @@
+C:\Dev\DKP\DivisaoContas\DivisaoContas\bin\Debug\net7.0\DivisaoContas.exe
+C:\Dev\DKP\DivisaoContas\DivisaoContas\bin\Debug\net7.0\DivisaoContas.deps.json
+C:\Dev\DKP\DivisaoContas\DivisaoContas\bin\Debug\net7.0\DivisaoContas.runtimeconfig.json
+C:\Dev\DKP\DivisaoContas\DivisaoContas\bin\Debug\net7.0\DivisaoContas.dll
+C:\Dev\DKP\DivisaoContas\DivisaoContas\bin\Debug\net7.0\DivisaoContas.pdb
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\DivisaoContas.csproj.AssemblyReference.cache
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\DivisaoContas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\DivisaoContas.AssemblyInfoInputs.cache
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\DivisaoContas.AssemblyInfo.cs
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\DivisaoContas.csproj.CoreCompileInputs.cache
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\DivisaoContas.dll
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\refint\DivisaoContas.dll
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\DivisaoContas.pdb
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\DivisaoContas.genruntimeconfig.cache
+C:\Dev\DKP\DivisaoContas\DivisaoContas\obj\Debug\net7.0\ref\DivisaoContas.dll

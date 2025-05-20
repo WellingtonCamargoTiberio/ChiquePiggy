@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\dapperCrud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\dto\\usuarioalterardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\dto\\usuarioalterardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\services\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\services\\iusuariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\profiles\\profileautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\profiles\\profileautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\dto\\usuariolistardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\dto\\usuariolistardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Models\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Models\\ResponseModel.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Models\\ResponseModel.cs",
+              "RelativeToolTip": "dapperCrud\\Models\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:06:35.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileAutoMapper.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Profiles\\ProfileAutoMapper.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Profiles\\ProfileAutoMapper.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Profiles\\ProfileAutoMapper.cs",
+              "RelativeToolTip": "dapperCrud\\Profiles\\ProfileAutoMapper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:55:42.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Models\\Usuarios.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Models\\Usuarios.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Models\\Usuarios.cs",
+              "RelativeToolTip": "dapperCrud\\Models\\Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:46:49.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioAlterarDto.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Dto\\UsuarioAlterarDto.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Dto\\UsuarioAlterarDto.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Dto\\UsuarioAlterarDto.cs",
+              "RelativeToolTip": "dapperCrud\\Dto\\UsuarioAlterarDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:46:32.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioListarDto.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Dto\\UsuarioListarDto.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Dto\\UsuarioListarDto.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Dto\\UsuarioListarDto.cs",
+              "RelativeToolTip": "dapperCrud\\Dto\\UsuarioListarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:46:27.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "dapperCrud\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAqwHoAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T21:44:46.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "dapperCrud\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAewEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T21:15:18.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioInterface.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Services\\IUsuarioInterface.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Services\\IUsuarioInterface.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Services\\IUsuarioInterface.cs",
+              "RelativeToolTip": "dapperCrud\\Services\\IUsuarioInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T21:14:17.402Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

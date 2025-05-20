@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SolucaoEasy/1.0.0": {
+        "runtime": {
+          "SolucaoEasy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolucaoEasy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
