@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Dev\\dapperCrud\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\models\\caixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\models\\caixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|c:\\dev\\dappercrud\\dappercrud\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEC5BF6B-0F10-403D-A35E-3733F5FAD873}|dapperCrud\\dapperCrud.csproj|solutionrelative:dappercrud\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,6 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Caixa.cs",
+              "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Models\\Caixa.cs",
+              "RelativeDocumentMoniker": "dapperCrud\\Models\\Caixa.cs",
+              "ToolTip": "C:\\Dev\\dapperCrud\\dapperCrud\\Models\\Caixa.cs",
+              "RelativeToolTip": "dapperCrud\\Models\\Caixa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:29:12.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Models\\ResponseModel.cs",
               "RelativeDocumentMoniker": "dapperCrud\\Models\\ResponseModel.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProfileAutoMapper.cs",
               "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Profiles\\ProfileAutoMapper.cs",
               "RelativeDocumentMoniker": "dapperCrud\\Profiles\\ProfileAutoMapper.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Usuarios.cs",
               "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Models\\Usuarios.cs",
               "RelativeDocumentMoniker": "dapperCrud\\Models\\Usuarios.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UsuarioAlterarDto.cs",
               "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Dto\\UsuarioAlterarDto.cs",
               "RelativeDocumentMoniker": "dapperCrud\\Dto\\UsuarioAlterarDto.cs",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UsuarioListarDto.cs",
               "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Dto\\UsuarioListarDto.cs",
               "RelativeDocumentMoniker": "dapperCrud\\Dto\\UsuarioListarDto.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "dapperCrud\\Services\\UsuarioService.cs",
@@ -115,12 +132,11 @@
               "RelativeToolTip": "dapperCrud\\Services\\UsuarioService.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAqwHoAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T21:44:46.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T21:44:46.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "dapperCrud\\Controllers\\UsuarioController.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IUsuarioInterface.cs",
               "DocumentMoniker": "C:\\Dev\\dapperCrud\\dapperCrud\\Services\\IUsuarioInterface.cs",
               "RelativeDocumentMoniker": "dapperCrud\\Services\\IUsuarioInterface.cs",
